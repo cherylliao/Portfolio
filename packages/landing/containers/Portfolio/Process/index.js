@@ -74,21 +74,18 @@ const ProcessSection = ({
         <Box {...learningRow}>
           <Box {...learningContentArea}>
             <Heading
-              content="Which is why we Never Stop Learning."
+              content="Which is why I Never Stop Learning."
               {...learningTitle}
             />
             <Text
-              content="We believe that we succeed when our clients succeed."
+              content="Creative problem solving."
               {...learningSubTitle}
             />
             <Text
               {...learningDescription}
-              content="I’m Tom Parkes, a New Zealand born digital designer currently looking for opportunities in Canada. Over the 8 years of my career, my portfolio includes user interface design, brand & identity design, illustration, and art & creative direction."
+              content="I’m Cheryl Liao, a fullstack developer with a variety of projects under her belt."
             />
-            <Text
-              {...learningDescription}
-              content="While at Neverbland over the last few years, I've worked on web and product solutions for a range of startups, in a variety of industries."
-            />
+         
             <Box {...buttonWrapper}>
               <Text content="Start Your Project ?" {...buttonLabelStyle} />
               <ButtonWrapper>

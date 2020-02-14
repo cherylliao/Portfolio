@@ -74,24 +74,24 @@ const Footer = ({
             />
             <Text
               as="span"
-              content="© 2018 All rights reserved. "
+              content="© 2020 All rights reserved. "
               {...copyrightStyle}
             />
             <Link href="#">
               <a>
                 {' '}
-                <Text as="span" content=" RedQ, Inc." {...copyrightStyle} />
+                <Text as="span" content=" Cheryl Liao." {...copyrightStyle} />
               </a>
             </Link>
           </Box>
           <Box {...col} {...flexBox}>
             <Box {...contactItem}>
               <Text content="Need help?" {...contactTitle} />
-              <Text content="redq.io" {...contactInfo} />
+              <Text content="Cheryl Liao" {...contactInfo} />
             </Box>
             <Box {...contactItem}>
               <Text content="Feel like talking" {...contactTitle} />
-              <Text content="+479-443-9334" {...contactInfo} />
+              <Text content="+312-874-4696" {...contactInfo} />
             </Box>
           </Box>
         </Box>

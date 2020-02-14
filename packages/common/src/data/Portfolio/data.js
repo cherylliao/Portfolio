@@ -70,11 +70,7 @@ export const MENU_ITEMS = [
     path: '#portfolio_section',
     offset: '0',
   },
-  {
-    label: 'AWARDS',
-    path: '#awards_section',
-    offset: '0',
-  },
+
   {
     label: 'WHY ME?',
     path: '#process_section',
@@ -397,50 +393,36 @@ export const PROCESS_STEPS = [
 ];
 
 export const SERVICE_LIST = [
+  
   {
-    title: 'UI/UX Design',
-    listItems: [
-      {
-        content: 'Design Sprints',
-      },
-      {
-        content: 'User Research',
-      },
-      {
-        content: 'Visual Design',
-      },
-      {
-        content: 'Mobile App Design',
-      },
-      {
-        content: 'Tracking & Learning',
-      },
-      {
-        content: 'Building Traction',
-      },
-    ],
-  },
-  {
-    title: 'Web Development',
+    title: 'Front End',
     listItems: [
       {
         content: 'ReactJS',
       },
-      {
-        content: 'AngularJS',
-      },
-      {
-        content: 'ASP.NET MVC',
-      },
+      
       {
         content: 'WordPress',
       },
       {
         content: 'NodeJS',
       },
+      
+    ],
+  },
+  {
+    title: 'Backend',
+    listItems: [
       {
-        content: 'GO',
+        content: 'MongoDB',
       },
+      {
+        content: 'Firebase',
+      },
+      {
+        content: 'Database Design',
+      },
+      
     ],
   },
   {
@@ -449,21 +431,7 @@ export const SERVICE_LIST = [
       {
         content: 'iOS',
       },
-      {
-        content: 'Android',
-      },
-      {
-        content: 'React Native',
-      },
-      {
-        content: 'Ionic & Apache Cordova',
-      },
-      {
-        content: 'NodeJS',
-      },
-      {
-        content: '3D & VR',
-      },
+    
     ],
   },
 ];

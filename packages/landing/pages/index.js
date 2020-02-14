@@ -51,7 +51,7 @@ export default () => {
        
           <ProcessSection />
           <SkillSection />
-          <CallToAction />
+         
          
           <ContactSection />
           <Footer />
