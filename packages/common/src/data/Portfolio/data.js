@@ -105,11 +105,11 @@ export const PORTFOLIO_SHOWCASE = [
     title: 'DEVELOPMENT',
     portfolioItem: [
       {
-        title: 'Canada Media Site',
+        title: 'Monsters Search',
         description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
+          "Monsters information are fetched via API from another database.  Search component is built so users can search for monsters.",
         image: PortfolioImage1,
-        link: '#',
+        link: 'https://cherylliao.github.io/monsters-search/',
         featuredIn: 'AWWWARDS',
         featuredLink: '#',
         view: '4.5K',
@@ -119,37 +119,10 @@ export const PORTFOLIO_SHOWCASE = [
           {
             content: 'React JS',
           },
-          {
-            content: 'Next JS',
-          },
-          {
-            content: 'Styled Component',
-          },
+          
         ],
       },
-      {
-        title: 'RedQ, Inc. mobile app',
-        description:
-          "An effective and immersive user experience is what catches the attention and spreads a clear message. That's why we attach great importance to the fact that ergonomics serves the design, and that this design is innovative and neat.",
-        image: PortfolioImage2,
-        link: '#',
-        featuredIn: 'AppStore',
-        featuredLink: '#',
-        view: '8.5K',
-        love: '5.5K',
-        feedback: '3.2K',
-        buildWith: [
-          {
-            content: 'React Native',
-          },
-          {
-            content: 'Firebase',
-          },
-          {
-            content: 'Styled Component',
-          },
-        ],
-      },
+     ,
     ],
   },
 ];
