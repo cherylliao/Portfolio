@@ -37,13 +37,10 @@ import Reviewer2 from '../../assets/image/portfolio/client-avatar-2.jpg';
 import Reviewer3 from '../../assets/image/portfolio/client-avatar-3.jpg';
 
 export const SOCIAL_PROFILES = [
-  
-  
   {
     icon: socialGithub,
     url: 'https://github.com/cherylliao',
   },
-  
 ];
 
 export const MENU_ITEMS = [
@@ -107,7 +104,7 @@ export const PORTFOLIO_SHOWCASE = [
       {
         title: 'Monsters Search',
         description:
-          "Monsters information are fetched via API from another database.  Search component is built so users can search for monsters.",
+          'Monsters information are fetched via API from another database.  Search component is built so users can search for monsters.',
         image: PortfolioImage1,
         link: 'https://cherylliao.github.io/monsters-search/',
         featuredIn: 'AWWWARDS',
@@ -119,10 +116,31 @@ export const PORTFOLIO_SHOWCASE = [
           {
             content: 'React JS',
           },
-          
         ],
       },
-     ,
+      {
+        title: 'Inca Tours',
+        description:
+          'An ecommerce site with Stripe integration to buy tours or gifts.',
+        image: PortfolioImage2,
+        link: 'https://macchupicchu.herokuapp.com/',
+        featuredIn: 'AWWWARDS',
+        featuredLink: '#',
+        view: '4.5K',
+        love: '1.5K',
+        feedback: '1.2K',
+        buildWith: [
+          {
+            content: 'React JS',
+          },
+          {
+            content: 'Express',
+          },
+          {
+            content: 'Node JS',
+          },
+        ],
+      },
     ],
   },
 ];
@@ -149,21 +167,19 @@ export const PROCESS_STEPS = [
 ];
 
 export const SERVICE_LIST = [
-  
   {
     title: 'Front End',
     listItems: [
       {
         content: 'ReactJS',
       },
-      
+
       {
         content: 'WordPress',
       },
       {
         content: 'NodeJS',
       },
-      
     ],
   },
   {
@@ -178,7 +194,6 @@ export const SERVICE_LIST = [
       {
         content: 'Database Design',
       },
-      
     ],
   },
   {
@@ -187,7 +202,6 @@ export const SERVICE_LIST = [
       {
         content: 'iOS',
       },
-    
     ],
   },
 ];
