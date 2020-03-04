@@ -30,3 +30,4 @@ packages/reusecore
 .cache/
 now.json
 firebase.json
+.now

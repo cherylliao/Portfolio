@@ -154,7 +154,7 @@ export const PORTFOLIO_SHOWCASE = [
         title: 'To Do List',
         description:
           'Simple to do list.  Add items, checking done items and deleting them',
-        image: PortfolioImage1,
+        image: Client1,
         link: 'http://safe-badlands-59126.herokuapp.com/',
         featuredIn: 'AWWWARDS',
         featuredLink: '#',
