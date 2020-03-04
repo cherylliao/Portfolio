@@ -50,9 +50,9 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            <Link href="#">
+            <Link href="https://www.linkedin.com/in/cheryl-liao-2b431a97/">
               <a className="navbar_button">
-                <Button {...button} title="LET'S TALK" />
+                <Button {...button} title="LETS TALK" />
               </a>
             </Link>
             <Drawer
@@ -68,9 +68,9 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <Link href="#">
+              <Link href="https://www.linkedin.com/in/cheryl-liao-2b431a97/">
                 <a className="navbar_drawer_button">
-                  <Button {...button} title="LET'S TALK" />
+                  <Button {...button} title="LETS TALK" />
                 </a>
               </Link>
             </Drawer>

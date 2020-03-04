@@ -1,8 +1,9 @@
 import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
 import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
-import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOutline';
+
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
-import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
+import { socialInstagram } from 'react-icons-kit/ionicons/socialInstagram';
+import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 
 import Awardee1 from '../../assets/image/portfolio/awardee-1.png';
 import Awardee2 from '../../assets/image/portfolio/awardee-2.png';
@@ -40,6 +41,14 @@ export const SOCIAL_PROFILES = [
   {
     icon: socialGithub,
     url: 'https://github.com/cherylliao',
+  },
+  {
+    icon: socialLinkedin,
+    url: 'https://www.linkedin.com/in/cheryl-liao-2b431a97/',
+  },
+  {
+    icon: socialTwitter,
+    url: 'https://twitter.com/cheryl50257423',
   },
 ];
 
@@ -138,6 +147,29 @@ export const PORTFOLIO_SHOWCASE = [
           },
           {
             content: 'Node JS',
+          },
+        ],
+      },
+      {
+        title: 'To Do List',
+        description:
+          'Simple to do list.  Add items, checking done items and deleting them',
+        image: PortfolioImage1,
+        link: 'http://safe-badlands-59126.herokuapp.com/',
+        featuredIn: 'AWWWARDS',
+        featuredLink: '#',
+        view: '4.5K',
+        love: '1.5K',
+        feedback: '1.2K',
+        buildWith: [
+          {
+            content: 'Node',
+          },
+          {
+            content: 'MongoDB',
+          },
+          {
+            content: 'Express',
           },
         ],
       },

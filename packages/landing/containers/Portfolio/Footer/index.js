@@ -43,9 +43,13 @@ const Footer = ({
               content="So, do we work together?"
               {...titleStyle}
             />
-            <Link href="#">
+            <Link href="https://www.linkedin.com/in/cheryl-liao-2b431a97/">
               <a>
-                <Heading as="h3" content="LET'S TALK!" {...linkStyle} />
+                <Heading
+                  as="h3"
+                  content="Message Me On Linkedin!"
+                  {...linkStyle}
+                />
               </a>
             </Link>
           </Box>
