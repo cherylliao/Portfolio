@@ -108,7 +108,7 @@ export const AWARDS = [
 
 export const PORTFOLIO_SHOWCASE = [
   {
-    title: 'DEVELOPMENT',
+    title: 'CLICK RIGHT LEFT ARROWS TO BROWSE',
     portfolioItem: [
       {
         title: 'Monsters Search',
